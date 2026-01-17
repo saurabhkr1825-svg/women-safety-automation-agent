@@ -1,0 +1,5 @@
+trigger:
+  type: hardware
+  event: power_button
+  count: 3
+  timeout: 3

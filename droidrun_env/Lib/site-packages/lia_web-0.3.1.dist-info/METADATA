@@ -1,0 +1,41 @@
+Metadata-Version: 2.4
+Name: lia-web
+Version: 0.3.1
+Summary: This package has been renamed to cross-web. Install cross-web instead.
+Author-email: Patrick Arminio <patrick.arminio@gmail.com>
+Classifier: Development Status :: 7 - Inactive
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.9
+Requires-Dist: cross-web>=0.3.0
+Description-Content-Type: text/markdown
+
+# lia-web has been renamed to cross-web
+
+This package has been renamed to [cross-web](https://pypi.org/project/cross-web/).
+
+Please update your dependencies to use `cross-web` instead:
+
+```bash
+uv add cross-web
+# or
+pip install cross-web
+```
+
+And update your imports from:
+
+```python
+from lia import Response
+```
+
+to:
+
+```python
+from cross_web import Response
+```
+
+## Backwards Compatibility
+
+This package (`lia-web`) now depends on `cross-web` and re-exports all its symbols under the `lia` namespace for backwards compatibility. However, we recommend updating your imports to use `cross` directly.

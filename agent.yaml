@@ -1,0 +1,13 @@
+name: Women Safety SOS Agent
+version: 1.0
+description: Emergency SOS agent using Droidrun
+trigger: triggers/sos_trigger.yaml
+actions: actions/emergency_actions.yaml
+use_ai: false
+
+permissions:
+  - ACCESS_FINE_LOCATION
+  - CALL_PHONE
+  - SEND_SMS
+  - ACCESSIBILITY
+  - BACKGROUND_EXECUTION

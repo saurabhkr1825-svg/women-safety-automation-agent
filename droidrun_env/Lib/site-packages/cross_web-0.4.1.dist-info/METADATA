@@ -1,0 +1,42 @@
+Metadata-Version: 2.4
+Name: cross-web
+Version: 0.4.1
+Summary: A library for working with web frameworks
+Project-URL: Homepage, https://github.com/usecross/cross-web
+Project-URL: Repository, https://github.com/usecross/cross-web
+Project-URL: Issues, https://github.com/usecross/cross-web/issues
+Project-URL: Changelog, https://github.com/usecross/cross-web/releases
+Author-email: Patrick Arminio <patrick.arminio@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: asgi,framework,http,request,response,web,wsgi
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.9
+Requires-Dist: typing-extensions>=4.14.0
+Description-Content-Type: text/markdown
+
+# Cross
+
+**Write once, run everywhere** - A universal web framework adapter for Python that lets you write code once and use it across multiple web frameworks.
+
+## Installation
+
+```bash
+uv add cross-web
+```
+
+```python
+from cross_web import Response
+```
+
+## Overview
+
+Cross provides a unified interface for common web framework operations, allowing you to write framework-agnostic code that can be easily adapted to work with FastAPI, Flask, Django, and other popular Python web frameworks.
+
+## Features
+
+This project is in early development!

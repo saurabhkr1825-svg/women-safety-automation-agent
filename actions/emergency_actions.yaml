@@ -1,0 +1,17 @@
+actions:
+  - type: get_location
+    save_as: location
+
+  - type: call
+    number: "112"
+
+  - type: send_sms
+    to:
+      - "+919235552376"
+    message: |
+      🚨 EMERGENCY ALERT 🚨
+      I am in danger.
+      📍 Location: {{ location }}
+
+  - type: play_sound
+    sound: "alarm"
