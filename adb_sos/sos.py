@@ -51,7 +51,7 @@ I am in danger.
     call_emergency()
     time.sleep(5)
 
-    send_sms("+919235552376", message)
+    send_sms("+91xxxxxxxxxx", message)
     play_alarm()
 
     print("[✓] SOS triggered successfully")
